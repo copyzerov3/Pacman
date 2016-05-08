@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F45983F-61A2-45E4-BC61-B3F080717DD9}</ProjectGuid>
+    <RootNamespace>GameEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>../../include/;../../include/GL;$(IncludePath)</IncludePath>
+    <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\NetworkServices.cpp" />
+    <ClCompile Include="BlueGhost.cpp" />
+    <ClCompile Include="Boundary.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientNetwork.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="GameObjectNode.cpp" />
+    <ClCompile Include="GameOverScreen.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="GhostNodeMap.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuScreen.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="OrangeGhost.cpp" />
+    <ClCompile Include="Pellet.cpp" />
+    <ClCompile Include="PinkGhost.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PowerPellet.cpp" />
+    <ClCompile Include="RedGhost.cpp" />
+    <ClCompile Include="SceneGraph.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\NetworkServices.h" />
+    <ClInclude Include="..\Core\PacketTypes.h" />
+    <ClInclude Include="BlueGhost.h" />
+    <ClInclude Include="Boundary.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientNetwork.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="GameObjectNode.h" />
+    <ClInclude Include="GameOverScreen.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="GhostNodeMap.h" />
+    <ClInclude Include="MainMenuScreen.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="OrangeGhost.h" />
+    <ClInclude Include="Pellet.h" />
+    <ClInclude Include="PinkGhost.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerPellet.h" />
+    <ClInclude Include="RedGhost.h" />
+    <ClInclude Include="SceneGraph.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Sphere.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Map.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{db15e9b5-d552-4e9c-9547-104b986f7f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{11fb7e96-1370-467d-b319-1ecb975c2476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{1cd76eb7-8889-45b5-87b5-e40bce0ca7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neworking">
+      <UniqueIdentifier>{07b8f701-efec-43e9-b858-1533dd5b5237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pellets">
+      <UniqueIdentifier>{e548630c-38d0-4cd9-bf1d-6d975204ee9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ghosts">
+      <UniqueIdentifier>{ab50cc0f-421e-4c9e-b942-4d55e05b0824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pellets">
+      <UniqueIdentifier>{6d879e07-09e5-4fbf-a2c1-d2daae03c995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ghosts">
+      <UniqueIdentifier>{b5fdc8e1-1a80-454c-9c7a-701120e0f0dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Source Files\Neworking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\NetworkServices.cpp">
+      <Filter>Source Files\Neworking</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Neworking</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pellet.cpp">
+      <Filter>Source Files\Pellets</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPellet.cpp">
+      <Filter>Source Files\Pellets</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Ghosts</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueGhost.cpp">
+      <Filter>Source Files\Ghosts</Filter>
+    </ClCompile>
+    <ClCompile Include="OrangeGhost.cpp">
+      <Filter>Source Files\Ghosts</Filter>
+    </ClCompile>
+    <ClCompile Include="RedGhost.cpp">
+      <Filter>Source Files\Ghosts</Filter>
+    </ClCompile>
+    <ClCompile Include="PinkGhost.cpp">
+      <Filter>Source Files\Ghosts</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostNodeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\NetworkServices.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\PacketTypes.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pellet.h">
+      <Filter>Header Files\Pellets</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPellet.h">
+      <Filter>Header Files\Pellets</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Ghosts</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostNodeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PinkGhost.h">
+      <Filter>Header Files\Ghosts</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueGhost.h">
+      <Filter>Header Files\Ghosts</Filter>
+    </ClInclude>
+    <ClInclude Include="OrangeGhost.h">
+      <Filter>Header Files\Ghosts</Filter>
+    </ClInclude>
+    <ClInclude Include="RedGhost.h">
+      <Filter>Header Files\Ghosts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Map.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
